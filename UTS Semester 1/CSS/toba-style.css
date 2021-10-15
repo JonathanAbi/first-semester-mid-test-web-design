@@ -1,0 +1,37 @@
+body{
+	background-color:#e6ffff;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana dan sans-serif;
+	text-align:center;
+}
+li a{
+	text-decoration:none;
+	color:black;
+}
+li{
+	display:inline-block;
+	background-color:lightskyblue;
+	cursor:pointer;
+	font-size:120%;
+	width:5cm;
+	padding:0.3cm 1px;
+}
+li:hover{
+	background-color:darkslateblue;
+	color:white;
+}
+li>a:hover{
+	color:white;
+}
+div{
+	width:51%;
+	margin:auto;
+}
+.sumatra{
+	color:red;
+}
+p>a:link{
+	color:red;
+}
+p>a:visited{
+	color:green;
+}
